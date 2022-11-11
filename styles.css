@@ -1,0 +1,111 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #1b1919;
+}
+h1 {
+  font-family: "Krona One", sans-serif;
+  color: #ffffff;
+  font-size: 88px;
+}
+
+h2 {
+  font-family: "Krona One", sans-serif;
+  color: #6a6464;
+  font-size: 88px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  padding-left: 160px;
+  margin-top: 120px;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.start {
+  margin-top: 20px;
+}
+
+.start1 {
+  margin-bottom: 20px;
+}
+
+.animation {
+  animation: slidein 10s both;
+}
+.animation2 {
+  animation: slidein 15s;
+}
+.img {
+  justify-content: center;
+  align-content: center;
+  padding-left: 50%;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+}
+
+.text {
+  font-size: 40px;
+  padding-left: 20px;
+  color: #ffffff;
+}
+
+.down-arrow {
+  position: center;
+  top: calc(100vh - 60px);
+  left: calc(50% - 14px);
+  /* width: 0;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 2px; */
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: center;
+  /* top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px; */
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
