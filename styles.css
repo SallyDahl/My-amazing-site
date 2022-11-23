@@ -138,6 +138,12 @@ h4 {
   display: flex;
   padding-top: 15%;
 }
+.center2 {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding-top: 15%;
+}
 
 .about {
   display: flex;
@@ -281,13 +287,32 @@ h4 {
     flex-direction: column;
     font-size: medium;
   }
+  .center2 {
+    flex-direction: column;
+  }
 
+  .center2 h3 {
+    margin-left: 60px;
+  }
+
+  .center2 p {
+    margin-left: 60px;
+  }
   .working {
     flex-direction: column;
   }
 
   .worktext {
     flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    justify-content: end;
+    font-size: 15px;
+  }
+  .videopic img {
+    margin-left: 60px;
   }
 }
 
