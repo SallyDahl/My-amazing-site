@@ -200,6 +200,13 @@ h4 {
   justify-content: center;
 }
 
+.inthamakingimage {
+  flex-direction: column;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+}
+
 .workonesite {
   height: 100%;
   height: 100vh;
@@ -279,8 +286,19 @@ h4 {
     font-size: 60px;
   }
 
+  .aboutmetextrubrik {
+    flex-direction: column;
+    font-size: 60px;
+  }
+
   .aboutmetext {
     flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .aboutmetext p {
+    flex-direction: column;
+    padding-top: 20px;
   }
 
   .text {
@@ -312,7 +330,9 @@ h4 {
     font-size: 15px;
   }
   .videopic img {
-    margin-left: 60px;
+    margin-left: 20px;
+    width: 450px;
+    height: 280px;
   }
 }
 
